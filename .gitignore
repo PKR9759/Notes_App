@@ -1,0 +1,76 @@
+# ==========================
+# Dependencies
+# ==========================
+backend/node_modules/
+frontend/node_modules/
+
+# ==========================
+# Environment files
+# ==========================
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Keep example env files
+!backend/.env.example
+!frontend/.env.example
+
+# ==========================
+# Build outputs
+# ==========================
+frontend/dist/
+frontend/build/
+backend/dist/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# OS files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Coverage
+# ==========================
+coverage/
+
+# ==========================
+# Cache
+# ==========================
+.cache/
+.eslintcache
+
+# ==========================
+# Runtime files
+# ==========================
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================
+# Optional package manager files
+# ==========================
+.pnpm-store/
+.npm/
+
+# ==========================
+# TypeScript
+# ==========================
+*.tsbuildinfo
